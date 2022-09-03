@@ -1,0 +1,401 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hire Vault</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../static/css/bootstrap-icons.css" type="text/css" />
+    <link rel="stylesheet" href="../static/css/bootstrap-grid.css" type="text/css" />
+    <link rel="stylesheet" href="../static/css/my-slider.css" type="text/css"/>
+    <link rel="stylesheet" href="../static/css/boxicons.min.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/hire-vault.css' %}"/>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Fancybox CSS library -->
+    <link rel="stylesheet" type="text/css" href="../static/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../static/css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="../static/css/owl.theme.default.min.css" type="text/css" />
+  </head>
+  <body>
+    <!-- <section> -->
+    <section id="topbar" class="d-flex justify-content-end bd-highlight">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:divyanka.arava@gmail.com">divyanka.arava@gmail.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+91 7075949318</span></i>
+      </div>
+      <div class="whatsapp d-flex align-items-center">
+        <a href="https://api.whatsapp.com/send?phone=7075949318">
+          <img class="img-responsive" src="static/images/whatsapp.png" alt="WhatsApp" width="43" height="37"/>
+        </a>
+      </div>
+    </section>
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <h1><a href="index.html"><img class="img-responsive" src="static/images/logo-cropped.jpg" alt="Hire vault" width="=60" height="80" />HIRE VAULT</a></h1>
+        </div>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#home">Home</a></li>
+            <li><a class="nav-link scrollto" href="#services">Services</a></li>
+            <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- ======= Home Section ======= -->
+    <section id="home" class="d-flex flex-column justify-content-center align-items-center">
+        <div class="container" data-aos="fade-in">
+            <div class="row">
+              <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 d-flex">
+                 <div class="ism-slider" data-radio_type="thumbnail" id="my-slider">
+                 <ol>
+                    <li>
+                    <!-- <div class="mySlides"> -->
+                    <img class="mySlides" src="static/images/slides/slide1.jpg">
+                    <div class="numbertext">1 / 7</div>
+                <!-- </div> -->
+                </li>
+                <li>
+                  <!-- <div class="mySlides"> -->
+                  <img class="mySlides" src="static/images/slides/slide2.png">
+                  <div class="numbertext">2 / 7</div>
+                  <div>
+                </li>
+                <li>
+                  <img class="mySlides" src="static/images/slides/slide3.jpg">
+                  <div class="numbertext">3 / 7</div>
+                </li>
+                <li>
+                  <img class="mySlides" src="static/images/slides/slide4.jpg">
+                  <div class="numbertext">4 / 7</div>
+                </li>
+                <li>
+                  <img class="mySlides" src="static/images/slides/slide5.png">
+                  <div class="numbertext">5 / 7</div>
+                </li>
+                <li>
+                  <img class="mySlides" src="static/images/slides/slide6.jpg">
+                  <div class="numbertext">6 / 7</div>
+                </li>
+                <li>
+                  <img class="mySlides" src="static/images/slides/slide7.jpg">
+                  <div class="numbertext">7 / 7</div>
+                </li>
+
+              </ol>
+            </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4" id="">
+                <img src="static/images/quick-launch.png" alt="Workplace" usemap="#workmap" width="340" height="400">
+                <map name="workmap">
+                    <area shape="rect" id="ourwork" coords="49,125,353,111,356,193,108,206" href="#" title="our work" alt="our work" >
+                    <area shape="circle" coords="129,286,68" alt="map" title="map" href="../static/phone.html" target="_blank">
+                </map>
+          </div>
+          </div>
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-xl-12 col-sm-12">
+                <div class="paddingadjust">
+                  <div class="owl-carousel">
+                    <div class="item box-card">
+                      <img src="static/slider-images/arabian-tent.jpg" class="img-fluid" alt="image"/>
+                        <div class="info">
+                          <i>Arabian Tents</i>
+                        </div>
+                    </div>
+                    <div class="item box-card">
+                      <img src="static/slider-images/backdrop.jpg" class="img-fluid" alt="image"/>
+                        <div class="info">
+                          <i>Backdrops</i>
+                        </div>
+                    </div>
+                    <div class="item box-card">
+                      <img src="static/slider-images/buffet-counters.png" class="img-fluid" alt="image"/>
+                      <div class="info">
+                          <i>Buffet Counters</i>
+                        </div>
+                    </div>
+                     <div class="item box-card">
+                      <img src="static/slider-images/chairs.jpg" class="img-fluid" alt="image"/>
+                      <div class="info">
+                          <i>Chairs</i>
+                      </div>
+                    </div>
+                     <div class="item box-card">
+                      <img src="static/slider-images/cradles.jpg" class="img-fluid" alt="image"/>
+                      <div class="info">
+                          <i>Cradles</i>
+                        </div>
+                    </div>
+                     <div class="item box-card">
+                      <img src="static/slider-images/entrance-decor.jpg" class="img-fluid" alt="image"/>
+                      <div class="info">
+                          <i>Entrance Arch</i>
+                        </div>
+                    </div>
+                     <div class="item box-card">
+                      <img src="static/slider-images/round-tables.jpg" class="img-fluid" alt="image"/>
+                      <div class="info">
+                          <i>Round Tables</i>
+                        </div>
+                    </div>
+                     <div class="item box-card">
+                      <img src="static/slider-images/shamiana.jpg" class="img-fluid" alt="image"/>
+                      <div class="info">
+                          <i>Shamiana</i>
+                        </div>
+                    </div>
+                     <div class="item box-card">
+                      <img src="static/slider-images/sofas.jpg" class="img-fluid" alt="image"/>
+                      <div class="info">
+                          <i>Sofas</i>
+                        </div>
+                    </div>
+                  </div>
+                  </div>               
+                </div>
+              </div>
+           </div>
+    </section>
+     <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2><i>Services</i></h2>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4" data-aos="fade-up">
+            <div class="icon-box">
+              <h4 class="title"><a href="">Marriages</a></h4>
+              <p class="description">We go with particular colour or concept so we supply banquet chairs with covers with the theme ribbons, mattress, pillows, sofas, round tables, buffet counters etc., according to the theme.</p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <h4 class="title"><a href="">Schools & Colleges</a></h4>
+              <p class="description">For schools let it be Annual day, sports day or cultural programs we do all the needful. For colleges let it be conferences, convocations, workshop inaugurations or intercollegiate programs we do it all</p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <h4 class="title"><a href="">Inaugrations</a></h4>
+              <p class="description">We do inaugural arrangement for companies which comprise of entrance arch, stage, backdrop, reception tables and banquet arrangements.</p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <h4 class="title"><a href="">Exhibitions</a></h4>
+              <p class="description">We provide stalls for indoor or outdoor activities. We erect temporary Metal structures starting from 40′, 60′ and 80′ .We personalize it according to ones need.</p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon-box">
+              <h4 class="title"><a href="">Sports Events</a></h4>
+              <p class="description">We do what ever is required for corporate programs, let it be inaugural functions, workshops, official visits, conferences, conventions etc</p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <h4 class="title"><a href="">Birthday Events</a></h4>
+              <p class="description">We do what ever is required for corporate programs, let it be inaugural functions, workshops, official visits, conferences, conventions etc</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+
+     <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="row">
+           <div class="section-title">
+              <h2 data-aos="fade-up"><i>Portfolio</i></h2>
+              <p data-aos="fade-up">Filter out the items you need</p>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="shop-sidebar sidebar-wedget">
+              <h4 class="title">Categories</h4>
+              <div class="card example-1 scrollbar-deep-purple bordered-deep-purple thin">
+                <ul class="card-body" id="filters">
+  
+                  <li class="form-check border-line" data-toggle="portfilter" data-target="all">
+                    <input class="form-check-input" type="radio"  name="flexRadioDefault" id="all-snaps" checked>
+                    <label class="form-check-label" for="all-snaps">
+                      All
+                    </li>
+                  <li class="form-check border-line" data-toggle="portfilter" data-target="chairs">
+                    <input class="form-check-input" type="radio"  name="flexRadioDefault" id="chairs">
+                    <label class="form-check-label" for="chairs">
+                      Chairs
+                    </label>
+                  </li>
+                  <li class="form-check border-line" data-toggle="portfilter" data-target="sofas">
+                    <input class="form-check-input" type="radio"  name="flexRadioDefault" id="sofas">
+                    <label class="form-check-label" for="sofaS">
+                      Sofas
+                    </label>
+                  </li>
+      </ul>
+    </div>
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-8" >
+            <div class="shop-sidebar sidebar-wedget">
+              <div class="portfolio-item" id="all">
+             </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End portfolio Section -->
+    <br>
+    <br>
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3" data-aos="fade-right">
+            <div class="member">
+              <div class="member-img">
+                <img src="../static/images/founder.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>M. Venkatesh Rao</h4>
+                <span>Founder of <a href="#"><b>HIRE VAULT</b></a></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-9 col-lg-9">
+            <div class="section-title">
+                <h2><i>About Us</i></h2>
+            </div>
+            <p data-aos="fade-up">We provide Shaminas, Buffet Counters, VIP Chairs, Different Sofa sets, Round Tables, tents, cookery, stages, carpets, Decor, Gate Arch, Gazibo Tents, Arabian Tents, Chairs of all different models like Banquet, cushion wear, fibre, wooden Chairs..etc and whatever... Household and kitchen</p> 
+            <p data-aos="fade-up">We provide Shaminas, Buffet Counters, VIP Chairs, Different Sofa sets, Round Tables, tents, cookery, stages, carpets, Decor, Gate Arch, Gazibo Tents, Arabian Tents, Chairs of all different models like Banquet, cushion wear, fibre, wooden Chairs..etc and whatever... Household and kitchen</p> 
+            <p data-aos="fade-up">We provide Shaminas, Buffet Counters, VIP Chairs, Different Sofa sets, Round Tables, tents, cookery, stages, carpets, Decor, Gate Arch, Gazibo Tents, Arabian Tents, Chairs of all different models like Banquet, cushion wear, fibre, wooden Chairs..etc and whatever... Household and kitchen</p> 
+            <p data-aos="fade-up">We provide Shaminas, Buffet Counters, VIP Chairs, Different Sofa sets, Round Tables, tents, cookery, stages, carpets, Decor, Gate Arch, Gazibo Tents, Arabian Tents, Chairs of all different models like Banquet, cushion wear, fibre, wooden Chairs..etc and whatever... Household and kitchen</p> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 data-aos="fade-up"><i>Contact</i></h2>
+          <p data-aos="fade-up">We Love Questions and Feedback - We're Always Happy to Help <br>
+            <center>Here are some ways to contact us</center></p>
+        </div>
+
+        <div class="row justify-content-center">
+
+          <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up">
+            <div class="info-box">
+              <i class="bx bx-map"></i>
+              <h3>Our Address</h3>
+              <p> 24, Branson Garden St, near Greams Road, Kellys<br>
+                  Davidpuram, Kilpauk, Chennai, Tamil Nadu 600010</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="info-box">
+              <i class="bx bx-envelope"></i>
+              <h3>Email Us</h3>
+              <p>divyanka.arava@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="info-box">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call Us</h3>
+              <p>+91 7075949318<br>+91 9841324838</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-xl-9 col-lg-12 mt-4">
+            <form  method="post" role="form" class="email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center">
+                <button type="button" id="emailSubmit">Send Message</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+    <footer class="site-footer">
+     <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; Hire Vault 2022. All Rights Reserved By Hire Vault &
+         <a href="#">Web Design By Divyanka Arava</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+     <div id="my-modal" class="modal" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Our Work For Clients</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="static/js/ext-plugins/jquery-3.2.1.js"></script>
+    <script src="static/js/ext-plugins/bootstrap.js"></script>
+    <script src="static/js/hirevault.js"></script>
+    <script src="static/js/ism-2.2.min.js"></script>
+    <script src="static/js/bootstrap-portfilter.js"></script>
+    <script src="static/js/jquery.fancybox.min.js"></script>
+    <script src="static/js/owl.carousel.js"></script>
+    <script src="static/js/owl.carousel.min.js"></script>
+
+</body>  
+</html>
